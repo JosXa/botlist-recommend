@@ -1,0 +1,8 @@
+.env
+completions.jsonl
+db.json
+hnsw_index.bin
+*.session
+*.session-journal
+rejected.jsonl
+.pytest_cache

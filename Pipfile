@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Pyrogram = "*"
+python-decouple = "*"
+tgcrypto = "*"
+networkx = "*"
+matplotlib = "*"
+unidecode = "*"
+scipy = "*"
+jsonlines = "*"
+dacite = "*"
+transformers = "*"
+sentence-transformers = "*"
+hnswlib = "*"
+tqdm = "*"
+numpy = "*"
+typer = "*"
+aiogram = "*"
+loguru = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"

@@ -1,0 +1,161 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ComposeMissingKeys" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="DuplicatedCode" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <Languages>
+        <language minSize="53" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBehaveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyCallingNonCallableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyClassHasNoInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMethodParametersInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <scope name="All Changed Files" level="INFORMATION" enabled="true" />
+      <option name="m_onlyWhenTypesAreKnown" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="83">
+            <item index="0" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="1" class="java.lang.String" itemvalue="ruamel-yaml" />
+            <item index="2" class="java.lang.String" itemvalue="pytest" />
+            <item index="3" class="java.lang.String" itemvalue="Pygments" />
+            <item index="4" class="java.lang.String" itemvalue="mock" />
+            <item index="5" class="java.lang.String" itemvalue="docutils" />
+            <item index="6" class="java.lang.String" itemvalue="tox" />
+            <item index="7" class="java.lang.String" itemvalue="pastel" />
+            <item index="8" class="java.lang.String" itemvalue="pydantic" />
+            <item index="9" class="java.lang.String" itemvalue="six" />
+            <item index="10" class="java.lang.String" itemvalue="inform" />
+            <item index="11" class="java.lang.String" itemvalue="tomlkit" />
+            <item index="12" class="java.lang.String" itemvalue="arrow" />
+            <item index="13" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="14" class="java.lang.String" itemvalue="poethepoet" />
+            <item index="15" class="java.lang.String" itemvalue="devtools" />
+            <item index="16" class="java.lang.String" itemvalue="injector" />
+            <item index="17" class="java.lang.String" itemvalue="nestedtext" />
+            <item index="18" class="java.lang.String" itemvalue="httpx" />
+            <item index="19" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="20" class="java.lang.String" itemvalue="typed-ast" />
+            <item index="21" class="java.lang.String" itemvalue="mypy" />
+            <item index="22" class="java.lang.String" itemvalue="atomicwrites" />
+            <item index="23" class="java.lang.String" itemvalue="h11" />
+            <item index="24" class="java.lang.String" itemvalue="py" />
+            <item index="25" class="java.lang.String" itemvalue="boltons" />
+            <item index="26" class="java.lang.String" itemvalue="rfc3986" />
+            <item index="27" class="java.lang.String" itemvalue="markupsafe" />
+            <item index="28" class="java.lang.String" itemvalue="pytest-mypy" />
+            <item index="29" class="java.lang.String" itemvalue="appdirs" />
+            <item index="30" class="java.lang.String" itemvalue="filelock" />
+            <item index="31" class="java.lang.String" itemvalue="certifi" />
+            <item index="32" class="java.lang.String" itemvalue="semver" />
+            <item index="33" class="java.lang.String" itemvalue="anyio" />
+            <item index="34" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="35" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="36" class="java.lang.String" itemvalue="libcst" />
+            <item index="37" class="java.lang.String" itemvalue="email-validator" />
+            <item index="38" class="java.lang.String" itemvalue="dnspython" />
+            <item index="39" class="java.lang.String" itemvalue="event-signal" />
+            <item index="40" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="41" class="java.lang.String" itemvalue="argcomplete" />
+            <item index="42" class="java.lang.String" itemvalue="monkeytype" />
+            <item index="43" class="java.lang.String" itemvalue="click" />
+            <item index="44" class="java.lang.String" itemvalue="openapi-spec-validator" />
+            <item index="45" class="java.lang.String" itemvalue="attrs" />
+            <item index="46" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="47" class="java.lang.String" itemvalue="bump2version" />
+            <item index="48" class="java.lang.String" itemvalue="jinja2" />
+            <item index="49" class="java.lang.String" itemvalue="regex" />
+            <item index="50" class="java.lang.String" itemvalue="idna" />
+            <item index="51" class="java.lang.String" itemvalue="httpcore" />
+            <item index="52" class="java.lang.String" itemvalue="pathspec" />
+            <item index="53" class="java.lang.String" itemvalue="prance" />
+            <item index="54" class="java.lang.String" itemvalue="genson" />
+            <item index="55" class="java.lang.String" itemvalue="pluggy" />
+            <item index="56" class="java.lang.String" itemvalue="mypy-extensions" />
+            <item index="57" class="java.lang.String" itemvalue="pysnooper" />
+            <item index="58" class="java.lang.String" itemvalue="requests" />
+            <item index="59" class="java.lang.String" itemvalue="sniffio" />
+            <item index="60" class="java.lang.String" itemvalue="pyrsistent" />
+            <item index="61" class="java.lang.String" itemvalue="datamodel-code-generator" />
+            <item index="62" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="63" class="java.lang.String" itemvalue="apscheduler" />
+            <item index="64" class="java.lang.String" itemvalue="urllib3" />
+            <item index="65" class="java.lang.String" itemvalue="bumpversion" />
+            <item index="66" class="java.lang.String" itemvalue="bson" />
+            <item index="67" class="java.lang.String" itemvalue="coverage" />
+            <item index="68" class="java.lang.String" itemvalue="ordered-set" />
+            <item index="69" class="java.lang.String" itemvalue="black" />
+            <item index="70" class="java.lang.String" itemvalue="packaging" />
+            <item index="71" class="java.lang.String" itemvalue="pytest-asyncio" />
+            <item index="72" class="java.lang.String" itemvalue="toml" />
+            <item index="73" class="java.lang.String" itemvalue="addict" />
+            <item index="74" class="java.lang.String" itemvalue="chardet" />
+            <item index="75" class="java.lang.String" itemvalue="pytest-httpx" />
+            <item index="76" class="java.lang.String" itemvalue="typing-inspect" />
+            <item index="77" class="java.lang.String" itemvalue="colorama" />
+            <item index="78" class="java.lang.String" itemvalue="future" />
+            <item index="79" class="java.lang.String" itemvalue="inflect" />
+            <item index="80" class="java.lang.String" itemvalue="python-decouple" />
+            <item index="81" class="java.lang.String" itemvalue="isort" />
+            <item index="82" class="java.lang.String" itemvalue="pytz" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E722" />
+          <option value="E203" />
+          <option value="E231" />
+          <option value="E731" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="docutils-stubs==0.0.21" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="_pytest.main.Session.__truediv__" />
+          <option value="tgintegration.botcontroller.BotController.send_command_await" />
+          <option value="pyrogram.types.update.Update.id" />
+          <option value="ticktick.sync_data.TickTickSyncData.update_completed_tasks" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PydanticTypeCheckerInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
