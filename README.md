@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Install pipenv, then `pipenv install`
+1. [Install Pipenv](https://pipenv.pypa.io/en/latest/installation/), then `pipenv install`
 
 ### Extracting conversations and building the model
 
