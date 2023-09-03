@@ -11,7 +11,7 @@ from decouple import config
 
 from conversation_analyzer import Message
 
-client = Client("josxi", config("API_ID"), config("API_HASH"))
+client = Client("userbot", config("API_ID"), config("API_HASH"))
 
 
 @dataclass
