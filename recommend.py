@@ -14,7 +14,7 @@ from loguru import logger
 
 from data_cleaning import BOT_REGEX
 
-MODEL_NAME = "thenlper/gte-small"
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 DATASET_PATH = Path(__file__).parent / "completions.jsonl"
 INDEX_FILE = Path(__file__).parent / "hnsw_index.bin"
 EMBEDDING_DIMENSION = 384
@@ -76,12 +76,16 @@ class SimilaritySearch:
         for label, distance in zip(labels[0], distances[0]):
             prompt = self.data[label]["prompt"]
             answer = self.data[label]["answer"]
-            similarity_score = (1 - distance) * 100  # Assuming distance is cosine distance
+            similarity_score = (
+                1 - distance
+            ) * 100  # Assuming distance is cosine distance
             similar_questions.append([prompt, answer, similarity_score])
 
         return similar_questions
 
-    def query_bots(self, query_text, top_k=TOP_K_SIMILAR_QUESTIONS) -> list[tuple[float, str]]:
+    def query_bots(
+        self, query_text, top_k=TOP_K_SIMILAR_QUESTIONS
+    ) -> list[tuple[float, str]]:
         similar_questions = self.find_similar_questions(query_text, top_k)
 
         results = []
@@ -90,10 +94,11 @@ class SimilaritySearch:
             bots_in_answer = BOT_REGEX.findall(answer)
 
             for b in bots_in_answer:
+                if b in [x[1] for x in results]:
+                    continue
                 results.append((similarity_score, b))
 
         return results
-
 
 
 def main():
